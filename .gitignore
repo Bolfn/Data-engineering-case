@@ -1,1 +1,31 @@
+# virtualenv
+venv/
+.env/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# database / data files
+*.db
+*.sqlite
+*.sqlite3
+
+# build / dist
+dist/
+build/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# docker
+*.env
