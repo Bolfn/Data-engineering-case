@@ -1,0 +1,94 @@
+CustomerID,CompanyName,City,Country,TemperatureC,FeelsLikeC,WeatherMain,WeatherDescription,Humidity,WindSpeed,WeatherTimestamp,RegionStarting2016,RegionUntil2017
+ALFKI,Alfreds Futterkiste,Berlin,Germany,6.82,3.55,Clouds,few clouds,81,5.14,1773514807,Germany,Europe
+ANATR,Ana Trujillo Emparedados y helados,México D.F.,Mexico,22.72,21.7,Clouds,broken clouds,25,4.12,1773515093,Brazil,USA
+ANTON,Antonio Moreno Taquería,México D.F.,Mexico,22.72,21.7,Clouds,broken clouds,25,4.12,1773515093,Brazil,USA
+AROUT,Around the Horn,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+BERGS,Berglunds snabbköp,Luleå,Sweden,1.06,-3.67,Clear,clear sky,100,5.14,1773515095,Sweden,Europe
+BLAUS,Blauer See Delikatessen,Mannheim,Germany,6.77,4.86,Clouds,overcast clouds,69,2.68,1773514826,Germany,Europe
+BLONP,Blondesddsl père et fils,Strasbourg,France,4.99,3.3,Clear,clear sky,75,2.06,1773515091,France,Europe
+BOLID,Bólido Comidas preparadas,Madrid,Spain,11.77,10.67,Clouds,broken clouds,64,6.69,1773515301,Spain,Europe
+BONAP,Bon app',Marseille,France,7.59,2.04,Clear,clear sky,66,14.92,1773515072,France,Europe
+BOTTM,Bottom-Dollar Markets,Tsawassen,Canada,,,,,,,,USA,USA
+BSBEV,B's Beverages,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+CACTU,Cactus Comidas para llevar,Buenos Aires,Argentina,27.42,27.62,Clouds,broken clouds,47,2.24,1773515088,Brazil,USA
+CENTC,Centro comercial Moctezuma,México D.F.,Mexico,22.72,21.7,Clouds,broken clouds,25,4.12,1773515093,Brazil,USA
+CHOPS,Chop-suey Chinese,Bern,Switzerland,1.25,-0.07,Snow,light snow,94,1.34,1773515095,Germany,Europe
+COMMI,Comércio Mineiro,Sao Paulo,Brazil,28.04,28.4,Clouds,few clouds,49,3.6,1773515089,Brazil,USA
+CONSH,Consolidated Holdings,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+DRACD,Drachenblut Delikatessen,Aachen,Germany,2.87,0.64,Clouds,scattered clouds,90,2.23,1773514993,Germany,Europe
+DUMON,Du monde entier,Nantes,France,6.06,4.54,Clouds,overcast clouds,87,2.06,1773514787,France,Europe
+EASTC,Eastern Connection,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+ERNSH,Ernst Handel,Graz,Austria,9.99,7.34,Clouds,few clouds,77,5.66,1773515218,Germany,Europe
+FAMIA,Familia Arquibaldo,Sao Paulo,Brazil,28.04,28.4,Clouds,few clouds,49,3.6,1773515089,Brazil,USA
+FISSA,FISSA Fabrica Inter. Salchichas S.A.,Madrid,Spain,11.77,10.67,Clouds,broken clouds,64,6.69,1773515301,Spain,Europe
+FOLIG,Folies gourmandes,Lille,France,5.43,2.32,Clouds,broken clouds,76,4.12,1773515090,France,Europe
+FOLKO,Folk och fä HB,Bräcke,Sweden,1.07,-3.22,Clouds,overcast clouds,87,4.39,1773515094,Sweden,Europe
+FRANK,Frankenversand,München,Germany,2.97,2.97,Clouds,overcast clouds,92,0.89,1773515043,Germany,Europe
+FRANR,France restauration,Nantes,France,6.06,4.54,Clouds,overcast clouds,87,2.06,1773514787,France,Europe
+FRANS,Franchi S.p.A.,Torino,Italy,6.72,3.66,Rain,moderate rain,85,4.63,1773515093,Europe,Europe
+FURIB,Furia Bacalhau e Frutos do Mar,Lisboa,Portugal,14.21,14.09,Drizzle,light intensity drizzle,92,6.69,1773515094,Spain,Europe
+GALED,Galería del gastrónomo,Barcelona,Spain,8.22,7.07,Rain,light rain,76,2.06,1773514979,Spain,Europe
+GODOS,Godos Cocina Típica,Sevilla,Spain,17.37,16.91,Clouds,scattered clouds,67,6.69,1773515301,Spain,Europe
+GOURL,Gourmet Lanchonetes,Campinas,Brazil,29.89,29.8,Clouds,few clouds,42,3.6,1773515089,Brazil,USA
+GREAL,Great Lakes Food Market,Eugene,USA,9,6.98,Clouds,overcast clouds,69,3.58,1773515096,USA,USA
+GROSR,GROSELLA-Restaurante,Caracas,Venezuela,26.59,26.59,Rain,moderate rain,66,3.09,1773515097,Brazil,USA
+HANAR,Hanari Carnes,Rio de Janeiro,Brazil,28.36,31.23,Clouds,scattered clouds,69,7.72,1773515089,Brazil,USA
+HILAA,HILARION-Abastos,San Cristóbal,Venezuela,22.66,22.68,Clouds,broken clouds,65,1.22,1773515097,Brazil,USA
+HUNGC,Hungry Coyote Import Store,Elgin,USA,2.18,-1.68,Clouds,overcast clouds,62,4.12,1773515096,USA,USA
+HUNGO,Hungry Owl All-Night Grocers,Cork,Ireland,7.89,5.92,Clouds,broken clouds,70,3.09,1773514806,UK,Europe
+ISLAT,Island Trading,Cowes,UK,6.7,6.7,Clear,clear sky,79,0.89,1773515095,UK,Europe
+KOENE,Königlich Essen,Brandenburg,Germany,4.25,3.04,Rain,light rain,97,1.54,1773515092,Germany,Europe
+LACOR,La corne d'abondance,Versailles,France,6.59,4.36,Clear,clear sky,68,3.09,1773514546,France,Europe
+LAMAI,La maison d'Asie,Toulouse,France,7.99,4.63,Clear,clear sky,76,6.17,1773514584,France,Europe
+LAUGB,Laughing Bacchus Wine Cellars,Vancouver,Canada,6.38,3.49,Clouds,few clouds,70,4.12,1773515090,USA,USA
+LAZYK,Lazy K Kountry Store,Walla Walla,USA,6.55,3.52,Clouds,broken clouds,70,4.47,1773515097,USA,USA
+LEHMS,Lehmanns Marktstand,Frankfurt a.M.,Germany,5.55,3.49,Clouds,broken clouds,81,2.57,1773514825,Germany,Europe
+LETSS,Let's Stop N Shop,San Francisco,USA,17.39,16.93,Clouds,few clouds,67,3.13,1773515303,USA,USA
+LILAS,LILA-Supermercado,Barquisimeto,Venezuela,30.34,31.73,Clouds,scattered clouds,51,1.49,1773515097,Brazil,USA
+LINOD,LINO-Delicateses,I. de Margarita,Venezuela,26.61,26.61,Clear,clear sky,64,6.72,1773515097,Brazil,USA
+LONEP,Lonesome Pine Restaurant,Portland,USA,8.53,7.28,Clouds,overcast clouds,64,2.24,1773514882,USA,USA
+MAGAA,Magazzini Alimentari Riuniti,Bergamo,Italy,8.95,5.85,Rain,light rain,87,6.17,1773514918,Europe,Europe
+MAISD,Maison Dewey,Bruxelles,Belgium,5.24,2.39,Clouds,few clouds,80,3.6,1773514853,France,Europe
+MEREP,Mère Paillarde,Montréal,Canada,0.03,-4.66,Clouds,overcast clouds,90,4.63,1773515089,USA,USA
+MORGK,Morgenstern Gesundkost,Leipzig,Germany,6.07,5.12,Drizzle,light intensity drizzle rain,93,1.54,1773515026,Germany,Europe
+NORTS,North/South,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+OCEAN,Océano Atlántico Ltda.,Buenos Aires,Argentina,27.42,27.62,Clouds,broken clouds,47,2.24,1773515088,Brazil,USA
+OLDWO,Old World Delicatessen,Anchorage,USA,-11.69,-17.12,Clouds,overcast clouds,66,2.68,1773515095,USA,USA
+OTTIK,Ottilies Käseladen,Köln,Germany,4.26,3.05,Clouds,broken clouds,90,1.54,1773515090,Germany,Europe
+PARIS,Paris spécialités,Paris,France,6.98,4.82,Clear,clear sky,67,3.09,1773515298,France,Europe
+PERIC,Pericles Comidas clásicas,México D.F.,Mexico,22.72,21.7,Clouds,broken clouds,25,4.12,1773515093,Brazil,USA
+PICCO,Piccolo und mehr,Salzburg,Austria,5.95,2.24,Clouds,broken clouds,81,5.66,1773515088,Germany,Europe
+PRINI,Princesa Isabel Vinhos,Lisboa,Portugal,14.21,14.09,Drizzle,light intensity drizzle,92,6.69,1773515094,Spain,Europe
+QUEDE,Que Delícia,Rio de Janeiro,Brazil,28.36,31.23,Clouds,scattered clouds,69,7.72,1773515089,Brazil,USA
+QUEEN,Queen Cozinha,Sao Paulo,Brazil,28.04,28.4,Clouds,few clouds,49,3.6,1773515089,Brazil,USA
+QUICK,QUICK-Stop,Cunewalde,Germany,9.12,7.38,Clouds,overcast clouds,82,3.13,1773514880,Germany,Europe
+RANCH,Rancho grande,Buenos Aires,Argentina,27.42,27.62,Clouds,broken clouds,47,2.24,1773515088,Brazil,USA
+RATTC,Rattlesnake Canyon Grocery,Albuquerque,USA,21.78,20.41,Clear,clear sky,15,2.57,1773515302,USA,USA
+REGGC,Reggiani Caseifici,Reggio Emilia,Italy,12.85,11.81,Clouds,overcast clouds,62,3.63,1773515093,Europe,Europe
+RICAR,Ricardo Adocicados,Rio de Janeiro,Brazil,28.36,31.23,Clouds,scattered clouds,69,7.72,1773515089,Brazil,USA
+RICSU,Richter Supermarkt,Genève,Switzerland,3.23,1.24,Clouds,broken clouds,93,2.06,1773514915,Germany,Europe
+ROMEY,Romero y tomillo,Madrid,Spain,11.77,10.67,Clouds,broken clouds,64,6.69,1773515301,Spain,Europe
+SANTG,Santé Gourmet,Stavern,Norway,4.09,0.55,Clouds,broken clouds,97,4.34,1773515094,Sweden,Europe
+SAVEA,Save-a-lot Markets,Boise,USA,11.66,10.71,Clouds,scattered clouds,70,9.26,1773515278,USA,USA
+SEVES,Seven Seas Imports,London,UK,7.94,6.74,Clear,clear sky,52,2.06,1773515129,UK,Europe
+SIMOB,Simons bistro,Kobenhavn,Denmark,4.25,3.04,Clouds,overcast clouds,88,1.54,1773514865,Sweden,Europe
+SPECD,Spécialités du monde,Paris,France,6.98,4.82,Clear,clear sky,67,3.09,1773515298,France,Europe
+SPLIR,Split Rail Beer & Ale,Lander,USA,9.99,4.79,Clouds,broken clouds,49,18.88,1773515096,USA,USA
+SUPRD,Suprêmes délices,Charleroi,Belgium,4.47,2.98,Clouds,few clouds,85,1.79,1773514928,France,Europe
+THEBI,The Big Cheese,Portland,USA,8.53,7.28,Clouds,overcast clouds,64,2.24,1773514882,USA,USA
+THECR,The Cracker Box,Butte,USA,2.63,-3.78,Clouds,broken clouds,60,10.8,1773515096,USA,USA
+TOMSP,Toms Spezialitäten,Münster,Germany,4.36,4.36,Clouds,broken clouds,95,1.03,1773515093,Germany,Europe
+TORTU,Tortuga Restaurante,México D.F.,Mexico,22.72,21.7,Clouds,broken clouds,25,4.12,1773515093,Brazil,USA
+TRADH,Tradição Hipermercados,Sao Paulo,Brazil,28.04,28.4,Clouds,few clouds,49,3.6,1773515089,Brazil,USA
+TRAIH,Trail's Head Gourmet Provisioners,Kirkland,USA,3.63,2.33,Clouds,broken clouds,93,1.54,1773515096,USA,USA
+VAFFE,Vaffeljernet,Århus,Denmark,5.49,3.71,Rain,moderate rain,87,2.24,1773514700,Sweden,Europe
+Val2 ,IT,,,,,,,,,,,
+VALON,IT,,,,,,,,,,,
+VICTE,Victuailles en stock,Lyon,France,4.35,0,Rain,light rain,84,6.17,1773515163,France,Europe
+VINET,Vins et alcools Chevalier,Reims,France,3,3,Clear,clear sky,87,0,1773515091,France,Europe
+WANDK,Die Wandernde Kuh,Stuttgart,Germany,5.14,3.01,Clear,clear sky,74,2.57,1773515076,Germany,Europe
+WARTH,Wartian Herkku,Oulu,Finland,3.39,0.93,Rain,light rain,100,2.57,1773515090,Sweden,Europe
+WELLI,Wellington Importadora,Resende,Brazil,26.23,26.23,Clear,clear sky,81,3.41,1773515089,Brazil,USA
+WHITC,White Clover Markets,Seattle,USA,3.6,0.07,Clouds,broken clouds,91,4.12,1773515097,USA,USA
+WILMK,Wilman Kala,Helsinki,Finland,6.92,3.77,Clear,clear sky,72,4.92,1773514819,Sweden,Europe
+WOLZA,Wolski  Zajazd,Warszawa,Poland,12.82,11.31,Clear,clear sky,44,4.12,1773515069,Poland,Europe

@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "pass": 20,
+    "warn": 5,
+    "fail": 0
+  },
+  "results": [
+    {
+      "check": "source_schema_validation",
+      "target": "Customers",
+      "status": "pass",
+      "details": {
+        "column": "CustomerID",
+        "expected_type": "TEXT",
+        "actual_type": "TEXT"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Customers",
+      "status": "pass",
+      "details": {
+        "column": "CompanyName",
+        "expected_type": "TEXT",
+        "actual_type": "TEXT"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Customers",
+      "status": "pass",
+      "details": {
+        "column": "City",
+        "expected_type": "TEXT",
+        "actual_type": "TEXT"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Customers",
+      "status": "pass",
+      "details": {
+        "column": "Country",
+        "expected_type": "TEXT",
+        "actual_type": "TEXT"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Orders",
+      "status": "pass",
+      "details": {
+        "column": "OrderID",
+        "expected_type": "INTEGER",
+        "actual_type": "INTEGER"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Orders",
+      "status": "pass",
+      "details": {
+        "column": "CustomerID",
+        "expected_type": "TEXT",
+        "actual_type": "TEXT"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Orders",
+      "status": "pass",
+      "details": {
+        "column": "OrderDate",
+        "expected_type": "DATETIME",
+        "actual_type": "DATETIME"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Orders",
+      "status": "pass",
+      "details": {
+        "column": "RequiredDate",
+        "expected_type": "DATETIME",
+        "actual_type": "DATETIME"
+      }
+    },
+    {
+      "check": "source_schema_validation",
+      "target": "Orders",
+      "status": "pass",
+      "details": {
+        "column": "ShippedDate",
+        "expected_type": "DATETIME",
+        "actual_type": "DATETIME"
+      }
+    },
+    {
+      "check": "region_mapping_schema_validation",
+      "target": "region_mapping.xlsx",
+      "status": "pass",
+      "details": {
+        "expected_source_headers": [
+          "Country",
+          "Region starting 2016",
+          "Region until 2017"
+        ],
+        "expected_normalized_headers": [
+          "Country",
+          "RegionStarting2016",
+          "RegionUntil2017"
+        ],
+        "actual_headers": [
+          "Country",
+          "RegionStarting2016",
+          "RegionUntil2017"
+        ]
+      }
+    },
+    {
+      "check": "enriched_schema_validation",
+      "target": "customers_weather_region",
+      "status": "pass",
+      "details": {
+        "expected_headers": [
+          "City",
+          "CompanyName",
+          "Country",
+          "CustomerID",
+          "FeelsLikeC",
+          "Humidity",
+          "RegionStarting2016",
+          "RegionUntil2017",
+          "TemperatureC",
+          "WeatherDescription",
+          "WeatherMain",
+          "WeatherTimestamp",
+          "WindSpeed"
+        ],
+        "actual_headers": [
+          "City",
+          "CompanyName",
+          "Country",
+          "CustomerID",
+          "FeelsLikeC",
+          "Humidity",
+          "RegionStarting2016",
+          "RegionUntil2017",
+          "TemperatureC",
+          "WeatherDescription",
+          "WeatherMain",
+          "WeatherTimestamp",
+          "WindSpeed"
+        ]
+      }
+    },
+    {
+      "check": "enriched_numeric_type_validation",
+      "target": "customers_weather_region.FeelsLikeC",
+      "status": "pass",
+      "details": {
+        "invalid_value_count": 0,
+        "sample_invalid_values": []
+      }
+    },
+    {
+      "check": "enriched_numeric_type_validation",
+      "target": "customers_weather_region.Humidity",
+      "status": "pass",
+      "details": {
+        "invalid_value_count": 0,
+        "sample_invalid_values": []
+      }
+    },
+    {
+      "check": "enriched_numeric_type_validation",
+      "target": "customers_weather_region.TemperatureC",
+      "status": "pass",
+      "details": {
+        "invalid_value_count": 0,
+        "sample_invalid_values": []
+      }
+    },
+    {
+      "check": "enriched_numeric_type_validation",
+      "target": "customers_weather_region.WeatherTimestamp",
+      "status": "pass",
+      "details": {
+        "invalid_value_count": 0,
+        "sample_invalid_values": []
+      }
+    },
+    {
+      "check": "enriched_numeric_type_validation",
+      "target": "customers_weather_region.WindSpeed",
+      "status": "pass",
+      "details": {
+        "invalid_value_count": 0,
+        "sample_invalid_values": []
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "customer_id",
+      "status": "pass",
+      "details": {
+        "missing_count": 0
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "customer_city",
+      "status": "warn",
+      "details": {
+        "missing_count": 2
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "country",
+      "status": "warn",
+      "details": {
+        "missing_count": 2
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "region_starting_2016",
+      "status": "warn",
+      "details": {
+        "missing_count": 2
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "region_until_2017",
+      "status": "warn",
+      "details": {
+        "missing_count": 2
+      }
+    },
+    {
+      "check": "missing_value_validation",
+      "target": "weather_data",
+      "status": "warn",
+      "details": {
+        "missing_count": 3
+      }
+    },
+    {
+      "check": "duplicate_validation",
+      "target": "customers_weather_region.CustomerID",
+      "status": "pass",
+      "details": {
+        "duplicate_count": 0,
+        "duplicate_keys": []
+      }
+    },
+    {
+      "check": "weather_city_match_validation",
+      "target": "city_weather",
+      "status": "pass",
+      "details": {
+        "mismatch_count": 0,
+        "sample_mismatches": []
+      }
+    },
+    {
+      "check": "region_mapping_coverage_validation",
+      "target": "customers_weather_region",
+      "status": "pass",
+      "details": {
+        "rows_missing_city": 2,
+        "rows_missing_region_for_present_city": 0
+      }
+    }
+  ]
+}

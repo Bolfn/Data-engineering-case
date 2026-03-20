@@ -1,0 +1,23 @@
+services:
+  etl:
+    build: .
+    image: northwind-etl:latest
+    environment:
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
+      DO_NOT_TRACK: ${DO_NOT_TRACK:-1}
+      PREFECT_SERVER_ANALYTICS_ENABLED: ${PREFECT_SERVER_ANALYTICS_ENABLED:-false}
+    volumes:
+      - ./:/app
+    command: []
+
+  etl-scheduled:
+    build: .
+    image: northwind-etl:latest
+    environment:
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
+      DO_NOT_TRACK: ${DO_NOT_TRACK:-1}
+      PREFECT_SERVER_ANALYTICS_ENABLED: ${PREFECT_SERVER_ANALYTICS_ENABLED:-false}
+      PREFECT_SCHEDULE_CRON: ${PREFECT_SCHEDULE_CRON:-0 7 * * *}
+    volumes:
+      - ./:/app
+    command: []
